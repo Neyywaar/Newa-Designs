@@ -123,13 +123,14 @@ a{
 
 /* Hero Section */
 .hero{
-   padding: 12rem;
+   margin: 12rem;
    display: flex;
    justify-content: space-between;
 }
 
 .heroimg{
-   width: 46rem;
+   width: 40%;
+   height: fit-content;
    border-radius: 4rem;
 }
 
@@ -144,7 +145,7 @@ a{
 
 .headtext{
    font-size: 4rem;
-   margin: 4rem 0;
+   margin: 2rem 0;
    text-align: center;
 }
 
@@ -199,10 +200,10 @@ a{
 /* Footer */
 footer{
    margin: auto;
-   padding: 2rem 12rem 5rem 12rem;
+   padding: 2rem 3rem;
    display: flex;
    bottom: 0;
-   justify-content: space-between;
+   justify-content: space-evenly;
    background-color: var(--bg);
 }
 
